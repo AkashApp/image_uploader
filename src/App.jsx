@@ -14,6 +14,13 @@ function App() {
         <div className="img-holder">
           <img src={profileImage} alt="" id="img" className="img" />
         </div>
+        <input type="file" name="image-upload" id="input" accept="image/*" />
+        <div className="label">
+          <label htmlFor="input" className="image-upload">
+            <h3>&#128247;</h3>
+            Choose your photo
+          </label>
+        </div>
       </div>
     </div>
   );
