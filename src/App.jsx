@@ -7,7 +7,16 @@ function App() {
     "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
   );
 
-  return <div className="App"></div>;
+  return (
+    <div className="page">
+      <div className="container">
+        <h1 className="heading">Add your Image</h1>
+        <div className="img-holder">
+          <img src={profileImage} alt="" id="img" className="img" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
